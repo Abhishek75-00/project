@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-16T12:32:55 IST" name="Suite" finished-at="2023-05-16T12:33:27 IST" duration-ms="32849">
+    <groups>
+    </groups>
+    <test started-at="2023-05-16T12:32:55 IST" name="ChromeBrowser" finished-at="2023-05-16T12:33:23 IST" duration-ms="28803">
+      <class name="tests.VerificationofHeader">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:32:55 IST" name="launchBrowser" finished-at="2023-05-16T12:32:57 IST" duration-ms="2132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:32:57 IST" name="createObject" finished-at="2023-05-16T12:32:57 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:32:57 IST" name="beforemethod" finished-at="2023-05-16T12:33:03 IST" duration-ms="5762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Toverifythetask()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:03 IST" name="Toverifythetask" finished-at="2023-05-16T12:33:08 IST" duration-ms="5642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Toverifythetask -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:08 IST" name="logoutFromApplication" finished-at="2023-05-16T12:33:09 IST" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Toverifythetask status=SUCCESS method=VerificationofHeader.Toverifythetask()[pri:0, instance:tests.VerificationofHeader@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:09 IST" name="beforemethod" finished-at="2023-05-16T12:33:10 IST" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testC()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:10 IST" name="testC" finished-at="2023-05-16T12:33:16 IST" duration-ms="6069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:16 IST" name="logoutFromApplication" finished-at="2023-05-16T12:33:17 IST" duration-ms="870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testC status=SUCCESS method=VerificationofHeader.testC()[pri:0, instance:tests.VerificationofHeader@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:17 IST" name="beforemethod" finished-at="2023-05-16T12:33:18 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testD()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:18 IST" name="testD" finished-at="2023-05-16T12:33:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testD -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:18 IST" name="logoutFromApplication" finished-at="2023-05-16T12:33:20 IST" duration-ms="2276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testD status=SUCCESS method=VerificationofHeader.testD()[pri:0, instance:tests.VerificationofHeader@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:20 IST" name="beforemethod" finished-at="2023-05-16T12:33:21 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="toverifytimetrack()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:21 IST" name="toverifytimetrack" finished-at="2023-05-16T12:33:22 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifytimetrack -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:22 IST" name="logoutFromApplication" finished-at="2023-05-16T12:33:23 IST" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toverifytimetrack status=SUCCESS method=VerificationofHeader.toverifytimetrack()[pri:0, instance:tests.VerificationofHeader@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:23 IST" name="clearObject" finished-at="2023-05-16T12:33:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:tests.VerificationofHeader@399f45b1]" started-at="2023-05-16T12:33:23 IST" name="aftertest" finished-at="2023-05-16T12:33:23 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- tests.VerificationofHeader -->
+    </test> <!-- ChromeBrowser -->
+    <test started-at="2023-05-16T12:33:23 IST" name="FirefoxBrowser" finished-at="2023-05-16T12:33:27 IST" duration-ms="4006">
+      <class name="tests.VerificationofHeader">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.VerificationofHeader@4d5d943d]" started-at="2023-05-16T12:33:23 IST" name="launchBrowser" finished-at="2023-05-16T12:33:26 IST" duration-ms="2534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:tests.VerificationofHeader@4d5d943d]" started-at="2023-05-16T12:33:26 IST" name="aftertest" finished-at="2023-05-16T12:33:27 IST" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- tests.VerificationofHeader -->
+    </test> <!-- FirefoxBrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
